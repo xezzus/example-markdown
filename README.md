@@ -11,17 +11,12 @@
 ##### This is an <h5> tag
 ###### This is an <h6> tag
 ```
-
-* * *
-
 # This is an H1 tag
 ## This is an H2 tag
 ### This is an H3 tag
 #### This is an H4 tag
 ##### This is an H5 tag
 ###### This is an H6 tag
-
-* * *
 
 ```markdown
 *This text will be italic*
@@ -31,16 +26,16 @@ __This will also be bold__
 
 *You **can** combine them*
 ```
-- - -
 
 *This text will be italic*
+
 _This will also be italic_
+
 **This text will be bold**
+
 __This will also be bold__
 
 *You **can** combine them*
-
-- - -
 
 ### List
 
@@ -51,6 +46,12 @@ __This will also be bold__
   * Item 2b
 ```
 
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+
 ```markdown
 1. Item 1
 2. Item 2
@@ -59,6 +60,12 @@ __This will also be bold__
    * Item 3b
 ```
 
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
+
 ### Miscellaneous
 
 ```markdown
@@ -66,10 +73,16 @@ __This will also be bold__
 Format: ![Alt Text](url)
 ```
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 ```markdown
 http://github.com - automatic!
 [GitHub](http://github.com)
 ```
+
+http://github.com - automatic!
+[GitHub](http://github.com)
 
 ```markdown
 As Kanye West said:
@@ -77,6 +90,11 @@ As Kanye West said:
 > We're living the future so
 > the present is our past.
 ```
+
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
 
 ### Code Examples in Markdown
 
@@ -90,6 +108,14 @@ function fancyAlert(arg) {
 ```
 ```
 
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
 ```markdown
 Here is a Python code example
 without syntax highlighting:
@@ -99,9 +125,19 @@ without syntax highlighting:
         return true
 ```
 
+Here is a Python code example
+without syntax highlighting:
+
+    def foo:
+      if not bar:
+        return true
+
 ```markdown
 I think you should use an
 `<addr>` element here instead.
 ```
+
+I think you should use an
+`<addr>` element here instead.
 
 

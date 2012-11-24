@@ -11,13 +11,17 @@
 ##### This is an <h5> tag
 ###### This is an <h6> tag
 ```
+
+* * *
+
 # This is an H1 tag
 ## This is an H2 tag
 ### This is an H3 tag
 #### This is an H4 tag
 ##### This is an H5 tag
 ###### This is an H6 tag
-####### This is an H7 tag
+
+* * *
 
 ```markdown
 *This text will be italic*
@@ -27,6 +31,16 @@ __This will also be bold__
 
 *You **can** combine them*
 ```
+- - -
+
+*This text will be italic*
+_This will also be italic_
+**This text will be bold**
+__This will also be bold__
+
+*You **can** combine them*
+
+- - -
 
 ### List
 

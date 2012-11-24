@@ -11,12 +11,13 @@
 ##### This is an <h5> tag
 ###### This is an <h6> tag
 ```
-# This is an <h1> tag
-## This is an <h2> tag
-### This is an <h3> tag
-#### This is an <h4> tag
-##### This is an <h5> tag
-###### This is an <h6> tag
+# This is an H1 tag
+## This is an H2 tag
+### This is an H3 tag
+#### This is an H4 tag
+##### This is an H5 tag
+###### This is an H6 tag
+####### This is an H7 tag
 
 ```markdown
 *This text will be italic*
